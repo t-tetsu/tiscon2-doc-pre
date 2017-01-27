@@ -129,7 +129,7 @@ PaaSの1つであり、Webアプリケーションのオンライン上での公
 コマンドに`git --version`と入力し、gitのバージョン情報が表示されれば正常にインストールできています。  
 
 Windows-32bitの場合、heroku toolbeltのインストーラ実行時にgitのインストールが失敗する可能性があります。  
-gitがインストールできていない場合は下記リンクからGitのインストーラをダウンロードしてください。  
+gitがインストールできていない場合は、下記リンクからGitのインストーラをダウンロードしてインストールしてください。  
 [【Git For Windows】](https://git-for-windows.github.io/)  
 ※インストール時の設定は全て初期状態のままで大丈夫です。
 
@@ -147,9 +147,9 @@ Gitに関して深く学びたい場合は、下記サイトを参照し理解�
 [【GitHub アカウントの作成方法】](http://fnya.cocolog-nifty.com/blog/2014/01/github-185e.html)
 
 
-### tisconのFork
+### tiscon2のFork
 [Github](https://github.com/)にログインし、下記ページの右上にあるForkボタンを押下してください。  
-[【tiscon - Githubページ】](https://github.com/tiscon/tiscon2)  
+[【tiscon2 - Githubページ】](https://github.com/tiscon/tiscon2)  
 
 
 
@@ -177,12 +177,13 @@ Gitに関して深く学びたい場合は、下記サイトを参照し理解�
 
 ### ローカルでの動作確認
 cloneしたwebアプリケーションが正常に動くか、ローカル上で動作確認を行います。  
-1. Project ViewからMain.javaを選択し、右クリックメニューから『Run ’Main main()’』を実行します。
+
+1. Project ViewからMain.javaを選択し、右クリックメニューから『Run ’Main main()’』を実行します。  
 ![Maven Viewの表示](image/operation_run_main.png)  
 
 1. 画面下部にログが表示されます。起動が完了すると下図のようにログが表示されます。  
    起動後はブラウザから http://localhost:3000 にアクセスすることでトップページが開きます。  
-![Maven Viewの表示](image/operation_run_main.png)  
+![Maven Viewの表示](image/operation_run_main2.png)  
 
 
 ### オンライン上での動作確認
