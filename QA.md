@@ -43,11 +43,12 @@ JDK,Mavenをインストールしたディレクトリと環境変数が一致�
 　　※入力するURL:https://github.com/[Githubのユーザ名]/tiscon2.git
 #####自身のGithubアカウントでのプロジェクトForkができていない
 Githubにログインし、プロジェクトのforkができているかを確認してください。  
-（下図のように、forkができているとリポジトリ一覧に「tiscon2」が表示されます。）  
+[GitHubトップページ](https://github.com/)
+（forkができているとリポジトリ一覧に「tiscon2」が表示されます。）  
 forkできていなかった場合は、もう一度環境構築手順に従いプロジェクトのforkを行って下さい。  
 　<img src="image/qa_github_top.png" width="640px">
 
-#####Heroku内のGitインストールが完了していない
+#####Gitインストールが完了していない
 　コマンドプロンプトで「git --version」と入力し、gitのバージョン情報が表示されるか確認してください。  
 　表示されない場合、Gitのインストールに失敗しています。Gitのインストールを行ってください。  
   
