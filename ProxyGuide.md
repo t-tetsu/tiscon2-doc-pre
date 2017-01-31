@@ -16,7 +16,7 @@
 ![自身のプロキシ設定確認3](image/proxy_setteing3.png)  
 ---
 ###IntelliJでのプロキシ設定  
-1. IntelliJの上部メニューバーより、File > Settings を選択します。  
+1. IntelliJのWelcome画面(またはメニューバー>File)からSettingを選択します。  
 ![IntelliJのプロキシ設定1](image/proxy_setteing_IntelliJ1.png)  
   
 1. Settingsウィンドウが表示されるので、左のバーからAppearance & Behavior > 一般 > HTTP Proxyを選択します。  
@@ -50,26 +50,3 @@
 
 1. コマンドに`set`を入力し、先程入力した設定が反映されていることを確認してください。  
 ![Herokuのプロキシ設定7](image/proxy_setteing_Heroku7.png)  
-
----
-###Webアプリケーション動作のための設定  
-  
-1. IntelliJを起動し、Project Viewより tiscon1 > respository > impl内のCachedGenreRepositoryをひらきます。
-1. findFromApiメソッドを以下の様に編集します。
- 
- 編集前
- 
-         // プロキシ設定が不要の場合
-         RestTemplate rest = new RestTemplate();
-         // プロキシ設定が必要の場合
-         // RestTemplate rest = myRest("proxy.co.jp", 8080);
- 
- 編集後
- 
-         // プロキシ設定が不要の場合
-         // RestTemplate rest = new RestTemplate();
-         // プロキシ設定が必要の場合
-         RestTemplate rest = myRest("proxy.co.jp", 8080);　// 自身のプロキシアドレス、ポート番号を記載する
- 
-   同様に、Project Viewより tiscon1 > respository > impl内のCategoryRepositoryImpl内を編集します。  
- CategoryRepositoryImpl内は上記記載が2か所存在します。両方同様の編集を行って下さい。  
