@@ -15,6 +15,12 @@
    記載されているアドレスとポートを控えておいてください。  
 ![自身のプロキシ設定確認3](image/proxy_setteing3.png)  
 ---
+###Mavenでのプロキシ設定  
+Mavenのプロキシ設定は、下記ページの「手順.5」を参照してください。  
+[【Apache Maven3 (3.2.5) インストール手順】](http://weblabo.oscasierra.net/install-maven-32-windows/)  
+
+
+---
 ###IntelliJでのプロキシ設定  
 1. IntelliJのWelcome画面(またはメニューバー>File)からSettingを選択します。  
 ![IntelliJのプロキシ設定1](image/proxy_setteing_IntelliJ1.png)  
